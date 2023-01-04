@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        h2{
+            text-align: center;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+   <h2>welcome jamaler ma pitha ghor</h2> 
+   <form>
+    <fieldset>
+    <label for="name">your name
+        <input id="name" type="text" placeholder="your name">
+    </label>
+    
+    <label for="email">your email
+        <input id="email" type="text" placeholder="your email">
+    </label>
+    <label for="number">Number
+        <input id="number" type="text" placeholder="number">
+    </label>
+
+     <fieldset>
+        <legend>pick one pitha</legend>
+        <label for="chitoy">
+            <input type="radio" name="pitha" id="chitoy">
+            chitoy
+        </label>
+       
+        <label for="vapa">
+            <input type="radio" name="pitha" id="vapa">
+           vapa
+        </label>
+
+        <label for="dal">
+            <input type="radio" name="pitha" id="dal">
+          dal
+        </label>
+
+        <label for="narkel">
+            <input type="radio" name="pitha" id="narkel">
+         narkel
+        </label>
+     </fieldset>
+
+     <fieldset>
+        <legend>select one or more bortha</legend>
+        <label for="sorisha">
+        <input type="checkbox" name="bortha" id="sorisha">
+        sorisha</label>
+
+        <label for="shidol">
+        <input type="checkbox" name="bortha" id="shidol">
+        shidol</label>
+
+        <label for="law">
+        <input type="checkbox" name="bortha" id="law">
+        law</label>
+       </fieldset>
+       <fieldset>
+        <legend>special instraction</legend>
+        <textarea name="" id="" cols="60" rows="3"></textarea>
+       </fieldset>
+       <input type="reset" value="reset">
+       <input type="submit" value="submit">
+    
+    </fieldset>
+   </form>
+</body>
+</html>
